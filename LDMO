@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<debate-format schema-version="2.2">
+  <name>Australs</name>
+  <version>1</version>
+  <info>
+    <region>Australasia</region>
+    <level>University</level>
+    <used-at>Australasian Intervarsity Debating Championships</used-at>
+    <description>3 vs 3, 5-minute speeches, 3-minute replies, POIs allowed </description>
+  </info>
+  <prep-time length="10:00"/>
+  <speech-types>
+    <speech-type ref="substantive" length="5:00" first-period="normal">
+      <bell time="4:00" number="1" next-period="warning"/>
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+    <speech-type ref="reply" length="3:00" first-period="normal">
+      <bell time="2:00" number="1" next-period="warning"/>
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+  </speech-types>
+  <speeches>
+    <speech type="substantive">
+      <name>1st Affirmative</Prime Minister>
+    </speech>
+    <speech type="substantive">
+      <name>1st Negative</Leader of Opposition>
+    </speech>
+    <speech type="substantive">
+      <name>2nd Affirmative</Deputy PM >
+    </speech>
+    <speech type="substantive">
+      <name>2nd Negative</Deputy LO>
+    </speech>
+    <speech type="substantive">
+      <name>3rd Affirmative</Government Whip>
+    </speech>
+    <speech type="substantive">
+      <name>3rd Negative</Opposition Whip>
+    </speech>
+    <speech type="reply">
+      <name>Negative Leader's Reply</Government Reply>
+    </speech>
+    <speech type="reply">
+      <name>Affirmative Leader's Reply</Opposition Reply>
+    </speech>
+  </speeches>
+</debate-format>
